@@ -1,0 +1,25 @@
+baseURL = "https://krishnaprasasd-ai-devsecops-cloud.github.io/"
+locale = "en-us"
+title = "Krishnaprasad | AI Platform Engineer"
+theme = "PaperMod"
+paginate = 10
+[params]
+  description = "Daily AI Platform Engineering notes, labs and videos"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  [params.homeInfoParams]
+    Title = "AI Platform Engineering, one day at a time"
+    Content = "Daily topics from my 182-day AIPE journey: AWS, Kubernetes, Terraform, agentic AI. Every post has a hands-on lab."
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "Labs"
+  url = "https://github.com/krishnaprasasd-ai-devsecops-cloud/aipe-labs"
+  weight = 2
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/krishnaprasasd-ai-devsecops-cloud"
+  weight = 3
